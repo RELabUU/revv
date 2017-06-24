@@ -70,7 +70,7 @@ function displayHelpWindow(key) {
 	var content = "";
 	
 	if(key == 1) {
-		content = "(1) Use the <a href='https://github.com/MarcelRobeer/VisualNarrator' target='_blank' title='Visual Narrator'>Visual Narrator</a> to create a report from a set of user stories. (2) Upload this report to create a visualization of the set of user stories.";
+		content = "(1) Use the <a href='https://github.com/RELabUU/visual-narrator-adapted-for-revv' target='_blank' title='Visual Narrator'>Visual Narrator</a> to create a report from a set of user stories. (2) Upload this report to create a visualization of the set of user stories.";
 	}
 	
 	if(key == 2) {

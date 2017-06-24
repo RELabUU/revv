@@ -11,4 +11,4 @@ For this tool to run you either need a local or hosted web server that supports 
 1. Use the visual-narrator-adapted-for-revv tool to create an HTML report from a set of user stories.
 2. Open the REVV tool in the browser.
 3. Select 'Choose a file' and upload the HTML report.
-4. Visit the link that is returned by the REVV tool
+4. Visit the link that is returned by the REVV tool.
