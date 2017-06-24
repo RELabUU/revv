@@ -1,0 +1,6049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The report style uses Bootstrap (http://getbootstrap.com) -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>Report</title>
+</head>
+<body>
+	<div class="container" style="visibility: hidden">
+		<ul class="nav navbar-nav">
+			<li><a href="#general">General</a></li>
+			<li><a href="#user-stories">User Stories</a></li>
+			<li><a href="#ontology">Ontology</a></li>
+		</ul>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#general">General</a></li>
+				<li><a href="#user-stories">User Stories</a></li>
+				<li><a href="#ontology">Ontology</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">	
+	<h1 class="page-header">Report: System</h1>
+	<h2 id="general">General</h2>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Input file</h3>
+		</div>
+		<div class="panel-body">
+			<dl class="dl-horizontal">
+				<dt>Name</dt><dd>user_stories\SA_user_stories\team05\team05_user_stories.txt</dd>
+				<dt>Encoding</dt><dd>cp1252</dd>
+				<dt>Non-empty lines</dt><dd>37</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Run details</h3>
+			</div>
+			<div class="panel-body">
+			<h4>Parsed User Stories</h4>
+			<div class="progress">
+				<div class="progress-bar progress-bar-success" style="width: 94.5945945945946%">
+					Success: 35 User Stories (94.59%)
+				</div>
+				<div class="progress-bar progress-bar-danger" style="width: 5.405405405405405%">
+					Failed: 2 User Stories (5.41%)
+				</div>
+			</div>	
+					<p><span class="label label-danger">FAILED: Could not find a means indicator</span> User Story 17: <kbd>As an organizer, I want my customers to use the RFID chip, so that the purchase activities could not be affected.
+</kbd></p>
+					<p><span class="label label-danger">FAILED: Could not find a means indicator</span> User Story 24: <kbd>As an organizer, I want my customers to use the RFID chip in a friendly way, so that the purchase activities could not be affected.
+</kbd></p>
+			<div class="alert alert-warning">These User Stories are not included in any further statistics or ontology generation</div>
+			<h4>Time elapsed</h4>
+		</div>
+		<table class="table">
+			<thead>
+
+				<tr><th>Part</th><th>Time (s)</th></tr>
+			</thead>
+			<tbody>
+					<tr><td>Initializing Natural Language Processor (<em>spaCy</em> v0.101.0)</td><td>46.38438</td></tr>
+					<tr><td>Mining User Stories</td><td>0.60319</td></tr>
+					<tr><td>Creating Factor Matrix</td><td>3.30457</td></tr>
+					<tr><td>Generating Manchester Ontology</td><td>1.35283</td></tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Output files</h3>
+		</div>
+		<table class="table">
+			<thead>
+				<tr><th>File</th><th>Location</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Manchester Ontology</td><td><a href="C:\Users\c\Desktop\VisualNarrator-master-newoutput/System/ontology/System16.omn">output/System/ontology/System16.omn</a></td></tr>
+			</tbody>
+		</table>
+	</div>
+
+	<h2 id="user-stories">User Stories</h2>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 1</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to purchase tickets online.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>tickets</td>
+						<td>online</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADV</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>RB</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can purchase tickets online</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>purchase</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can online</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 2</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to pay for tickets online.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>pay</td>
+						<td>for</td>
+						<td>tickets</td>
+						<td>online</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>ADV</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>NNS</td>
+						<td>RB</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can pay for tickets online</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>pay for</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can online</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 3</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to be able to have RFID chip card that I can use for payment.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>be</td>
+						<td>able</td>
+						<td>to</td>
+						<td>have</td>
+						<td>RFID</td>
+						<td>chip</td>
+						<td>card</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>use</td>
+						<td>for</td>
+						<td>payment</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>JJ</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>WDT</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to be able to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can have RFID chip card that I can use for payment</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>have</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>chip card</kbd> (compound)
+					with phrase <kbd>RFID chip card</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can that I can use for payment</kbd></dd>
+						<dd>with nouns 
+<kbd>payment</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 4</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to deposit money to my card, so that I could pay for the facilities.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>deposit</td>
+						<td>money</td>
+						<td>to</td>
+						<td>my</td>
+						<td>card</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>could</td>
+						<td>pay</td>
+						<td>for</td>
+						<td>the</td>
+						<td>facilities</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>PRP$</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can deposit money to my card</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I could pay for the facilities</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>deposit</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>money</kbd>
+					with phrase <kbd>money</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can to my card</kbd></dd>
+						<dd>with nouns 
+<kbd>card</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I could pay for the facilities</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>pay for</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>facilities</kbd>
+					with phrase <kbd>the facilities</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>facilities</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 5</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC customer, I want to purchase tickets for different number of days. (like a 2-day/3day ticket...)
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>tickets</td>
+						<td>for</td>
+						<td>different</td>
+						<td>number</td>
+						<td>of</td>
+						<td>days</td>
+						<td>(</td>
+						<td>like</td>
+						<td>a</td>
+						<td>2-day/3day</td>
+						<td>ticket</td>
+						<td>)</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NNS</td>
+						<td>-LRB-</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>-RRB-</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can purchase tickets for different number of days (like a 2-day/3day ticket)</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC customer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>purchase</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can for different number of days ( like a 2-day/3day ticket )</kbd></dd>
+						<dd>with nouns 
+<kbd>number</kbd><kbd>days</kbd><kbd>2-day/3day</kbd><kbd>ticket</kbd></dd>
+						<dd>of which compounds 
+<kbd>2-day/3day</kbd><kbd>ticket</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 6</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC customer, I want to purchase tickets for different locations. (like a ticket with location A&B)
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>tickets</td>
+						<td>for</td>
+						<td>different</td>
+						<td>locations</td>
+						<td>(</td>
+						<td>like</td>
+						<td>a</td>
+						<td>ticket</td>
+						<td>with</td>
+						<td>location</td>
+						<td>A&B</td>
+						<td>)</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>PROPN</td>
+						<td>PUNCT</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>-LRB-</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NN</td>
+						<td>NNP</td>
+						<td>-RRB-</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can purchase tickets for different locations (like a ticket with location A&B)</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC customer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>purchase</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can for different locations ( like a ticket with location A&B )</kbd></dd>
+						<dd>with nouns 
+<kbd>locations</kbd><kbd>ticket</kbd><kbd>location</kbd><kbd>A&B</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 7</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC customer, I want to say whether I come early for the first performance.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>say</td>
+						<td>whether</td>
+						<td>I</td>
+						<td>come</td>
+						<td>early</td>
+						<td>for</td>
+						<td>the</td>
+						<td>first</td>
+						<td>performance</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>ADV</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>RB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can say whether I come early for the first performance</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC customer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>say</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>performance</kbd>
+					with phrase <kbd>the first performance</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can whether I come early for</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 8</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to purchase tickets offline.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>tickets</td>
+						<td>offline</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>JJ</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can purchase tickets offline</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>purchase</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can offline</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 9</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to easily deposit money to my card, so that I could pay for the facilities.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>easily</td>
+						<td>deposit</td>
+						<td>money</td>
+						<td>to</td>
+						<td>my</td>
+						<td>card</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>could</td>
+						<td>pay</td>
+						<td>for</td>
+						<td>the</td>
+						<td>facilities</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>ADV</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>RB</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>PRP$</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can easily deposit money to my card</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I could pay for the facilities</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>deposit</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>money</kbd>
+					with phrase <kbd>money</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can easily to my card</kbd></dd>
+						<dd>with nouns 
+<kbd>card</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I could pay for the facilities</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>pay for</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>facilities</kbd>
+					with phrase <kbd>the facilities</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>facilities</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 10</span>
+					<div style="display: inline-block; margin: 0 1em">As a GA customer (student), I want to receive notifications for lectures I should attend, so that I could finish my study plan without errors. 
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>GA</td>
+						<td>customer</td>
+						<td>(</td>
+						<td>student</td>
+						<td>)</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>receive</td>
+						<td>notifications</td>
+						<td>for</td>
+						<td>lectures</td>
+						<td>I</td>
+						<td>should</td>
+						<td>attend</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>could</td>
+						<td>finish</td>
+						<td>my</td>
+						<td>study</td>
+						<td>plan</td>
+						<td>without</td>
+						<td>errors</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADV</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>-LRB-</td>
+						<td>NN</td>
+						<td>-RRB-</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>NNS</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>RB</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>GA customer (student)</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can receive notifications for lectures I should attend</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I could finish my study plan without errors</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">GA customer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>receive</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>notifications</kbd>
+					with phrase <kbd>notifications</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can for lectures I should attend</kbd></dd>
+						<dd>with nouns 
+<kbd>lectures</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I could finish my study plan without errors</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>finish</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+					<kbd>study plan</kbd> (compound)
+					with phrase <kbd>my study plan</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>study</kbd><kbd>plan</kbd><kbd>errors</kbd></dd>
+					<dd>of which compounds 
+<kbd>study</kbd><kbd>plan</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 11</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC customer, I want to have information about the designated areas that are part of each site.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>have</td>
+						<td>information</td>
+						<td>about</td>
+						<td>the</td>
+						<td>designated</td>
+						<td>areas</td>
+						<td>that</td>
+						<td>are</td>
+						<td>part</td>
+						<td>of</td>
+						<td>each</td>
+						<td>site</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>VBN</td>
+						<td>NNS</td>
+						<td>WDT</td>
+						<td>VBP</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can have information about the designated areas that are part of each site</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC customer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>have</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can about the designated areas that are part of each site</kbd></dd>
+						<dd>with nouns 
+<kbd>areas</kbd><kbd>part</kbd><kbd>site</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 12</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to be able to log in to my personal account, where I can review important information about the event.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>be</td>
+						<td>able</td>
+						<td>to</td>
+						<td>log</td>
+						<td>in</td>
+						<td>to</td>
+						<td>my</td>
+						<td>personal</td>
+						<td>account</td>
+						<td>where</td>
+						<td>I</td>
+						<td>can</td>
+						<td>review</td>
+						<td>important</td>
+						<td>information</td>
+						<td>about</td>
+						<td>the</td>
+						<td>event</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADV</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>JJ</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>RP</td>
+						<td>IN</td>
+						<td>PRP$</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>WRB</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to be able to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can log in to my personal account where I can review important information about the event</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>log to</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>important information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can in my personal account where I can review about the event</kbd></dd>
+						<dd>with nouns 
+<kbd>account</kbd><kbd>event</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 13</span>
+					<div style="display: inline-block; margin: 0 1em">As a customer, I want to search for new events by favorited performers so that I can find out new events. 
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>customer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>search</td>
+						<td>for</td>
+						<td>new</td>
+						<td>events</td>
+						<td>by</td>
+						<td>favorited</td>
+						<td>performers</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>find</td>
+						<td>out</td>
+						<td>new</td>
+						<td>events</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>RP</td>
+						<td>JJ</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>customer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can search for new events by favorited performers</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I can find out new events</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">customer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>search for</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>new events</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can by favorited performers</kbd></dd>
+						<dd>with nouns 
+<kbd>performers</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I can find out new events</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>find</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>new events</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>events</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 14</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to distribute tickets, so that visitors can attend my event.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>distribute</td>
+						<td>tickets</td>
+						<td>so</td>
+						<td>that</td>
+						<td>visitors</td>
+						<td>can</td>
+						<td>attend</td>
+						<td>my</td>
+						<td>event</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>NNS</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can distribute tickets</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">visitors can attend my event</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>distribute</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>tickets</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>visitors can attend my event</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+							<kbd>visitors</kbd>
+						with phrase <kbd>visitors</kbd>
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>attend</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>event</kbd>
+					with phrase <kbd>my event</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>visitors</kbd><kbd>event</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 15</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to customize the way of promoting my events. 
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>customize</td>
+						<td>the</td>
+						<td>way</td>
+						<td>of</td>
+						<td>promoting</td>
+						<td>my</td>
+						<td>events</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>VBG</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can customize the way of promoting my events</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>customize</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>way</kbd>
+					with phrase <kbd>the way</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can of promoting my events</kbd></dd>
+						<dd>with nouns 
+<kbd>events</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 16</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to hold my events on multiple locations at the same time.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>hold</td>
+						<td>my</td>
+						<td>events</td>
+						<td>on</td>
+						<td>multiple</td>
+						<td>locations</td>
+						<td>at</td>
+						<td>the</td>
+						<td>same</td>
+						<td>time</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can hold my events on multiple locations at the same time</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>hold</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>my events</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can on multiple locations at the same time</kbd></dd>
+						<dd>with nouns 
+<kbd>locations</kbd><kbd>time</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 18</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to hold events in the open field.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>hold</td>
+						<td>events</td>
+						<td>in</td>
+						<td>the</td>
+						<td>open</td>
+						<td>field</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can hold events in the open field</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>hold</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>events</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can in the open field</kbd></dd>
+						<dd>with nouns 
+<kbd>field</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 19</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to hold events in buildings.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>hold</td>
+						<td>events</td>
+						<td>in</td>
+						<td>buildings</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can hold events in buildings</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>hold</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>events</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can in buildings</kbd></dd>
+						<dd>with nouns 
+<kbd>buildings</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 20</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to overview the state of the ticket-booking, so that I could analyze the event in an objective way.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>overview</td>
+						<td>the</td>
+						<td>state</td>
+						<td>of</td>
+						<td>the</td>
+						<td>ticket</td>
+						<td>-</td>
+						<td>booking</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>could</td>
+						<td>analyze</td>
+						<td>the</td>
+						<td>event</td>
+						<td>in</td>
+						<td>an</td>
+						<td>objective</td>
+						<td>way</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>HYPH</td>
+						<td>VBG</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can overview the state of the ticket-booking</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I could analyze the event in an objective way</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>overview</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>state</kbd>
+					with phrase <kbd>the state</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can of the ticket - booking</kbd></dd>
+						<dd>with nouns 
+<kbd>ticket</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I could analyze the event in an objective way</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>analyze</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>event</kbd>
+					with phrase <kbd>the event</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>event</kbd><kbd>way</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 21</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC organizer, I want to provide information about the designated areas that are part of each site.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>provide</td>
+						<td>information</td>
+						<td>about</td>
+						<td>the</td>
+						<td>designated</td>
+						<td>areas</td>
+						<td>that</td>
+						<td>are</td>
+						<td>part</td>
+						<td>of</td>
+						<td>each</td>
+						<td>site</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>VBN</td>
+						<td>NNS</td>
+						<td>WDT</td>
+						<td>VBP</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can provide information about the designated areas that are part of each site</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC organizer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can about the designated areas that are part of each site</kbd></dd>
+						<dd>with nouns 
+<kbd>areas</kbd><kbd>part</kbd><kbd>site</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 22</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC organizer, I want to update information about the designated areas that are part of each site.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>update</td>
+						<td>information</td>
+						<td>about</td>
+						<td>the</td>
+						<td>designated</td>
+						<td>areas</td>
+						<td>that</td>
+						<td>are</td>
+						<td>part</td>
+						<td>of</td>
+						<td>each</td>
+						<td>site</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>VBN</td>
+						<td>NNS</td>
+						<td>WDT</td>
+						<td>VBP</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can update information about the designated areas that are part of each site</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC organizer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>update</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can about the designated areas that are part of each site</kbd></dd>
+						<dd>with nouns 
+<kbd>areas</kbd><kbd>part</kbd><kbd>site</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 23</span>
+					<div style="display: inline-block; margin: 0 1em">As a GA organizer, I want to classify my customers in different groups (staff/students).
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>GA</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>classify</td>
+						<td>my</td>
+						<td>customers</td>
+						<td>in</td>
+						<td>different</td>
+						<td>groups</td>
+						<td>(</td>
+						<td>staff/students</td>
+						<td>)</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+						<td>NOUN</td>
+						<td>PUNCT</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>-LRB-</td>
+						<td>NNS</td>
+						<td>-RRB-</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>GA organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can classify my customers in different groups (staff/students)</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">GA organizer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>classify</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>customers</kbd>
+					with phrase <kbd>my customers</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can in different groups ( staff/students )</kbd></dd>
+						<dd>with nouns 
+<kbd>groups</kbd><kbd>staff/students</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 25</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to have an organizer.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>have</td>
+						<td>an</td>
+						<td>organizer</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can have an organizer</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>have</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>organizer</kbd>
+					with phrase <kbd>an organizer</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 26</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to enable our customers to use the RFID chip as cashless payment at the event locations, so that we will simplify the process of purchase.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>enable</td>
+						<td>our</td>
+						<td>customers</td>
+						<td>to</td>
+						<td>use</td>
+						<td>the</td>
+						<td>RFID</td>
+						<td>chip</td>
+						<td>as</td>
+						<td>cashless</td>
+						<td>payment</td>
+						<td>at</td>
+						<td>the</td>
+						<td>event</td>
+						<td>locations</td>
+						<td>so</td>
+						<td>that</td>
+						<td>we</td>
+						<td>will</td>
+						<td>simplify</td>
+						<td>the</td>
+						<td>process</td>
+						<td>of</td>
+						<td>purchase</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can enable our customers to use the RFID chip as cashless payment at the event locations</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">we will simplify the process of purchase</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>enable</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>RFID chip</kbd> (compound)
+					with phrase <kbd>the RFID chip</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can our customers to use as cashless payment at the event locations</kbd></dd>
+						<dd>with nouns 
+<kbd>customers</kbd><kbd>payment</kbd><kbd>event</kbd><kbd>locations</kbd></dd>
+						<dd>of which compounds 
+<kbd>event</kbd><kbd>locations</kbd></dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>we will simplify the process of purchase</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+							<kbd>we</kbd>
+						with phrase <kbd>we</kbd>
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>simplify</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>process</kbd>
+					with phrase <kbd>the process</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>process</kbd><kbd>purchase</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 27</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to provide information given by the event organizers about the designated areas that are part of each site.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>provide</td>
+						<td>information</td>
+						<td>given</td>
+						<td>by</td>
+						<td>the</td>
+						<td>event</td>
+						<td>organizers</td>
+						<td>about</td>
+						<td>the</td>
+						<td>designated</td>
+						<td>areas</td>
+						<td>that</td>
+						<td>are</td>
+						<td>part</td>
+						<td>of</td>
+						<td>each</td>
+						<td>site</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>VBN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>VBN</td>
+						<td>NNS</td>
+						<td>WDT</td>
+						<td>VBP</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can provide information given by the event organizers about the designated areas that are part of each site</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can given by the event organizers about the designated areas that are part of each site</kbd></dd>
+						<dd>with nouns 
+<kbd>event</kbd><kbd>organizers</kbd><kbd>areas</kbd><kbd>part</kbd><kbd>site</kbd></dd>
+						<dd>of which compounds 
+<kbd>event</kbd><kbd>organizers</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 28</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to manage events account so that I can provide information.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>manage</td>
+						<td>events</td>
+						<td>account</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>provide</td>
+						<td>information</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>VERB</td>
+						<td>ADV</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>VBP</td>
+						<td>RB</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can manage events account</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I can provide information</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>manage</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>events</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can account</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I can provide information</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>information</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 29</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to see the personal information of attendees.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>see</td>
+						<td>the</td>
+						<td>personal</td>
+						<td>information</td>
+						<td>of</td>
+						<td>attendees</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can see the personal information of attendees</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>see</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>the personal information</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can of attendees</kbd></dd>
+						<dd>with nouns 
+<kbd>attendees</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 30</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to open the event page, so that I can review event related information.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>open</td>
+						<td>the</td>
+						<td>event</td>
+						<td>page</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>review</td>
+						<td>event</td>
+						<td>related</td>
+						<td>information</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can open the event page</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I can review event related information</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>open</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>event page</kbd> (compound)
+					with phrase <kbd>the event page</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I can review event related information</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>review</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>event related information</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>event</kbd><kbd>information</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 31</span>
+					<div style="display: inline-block; margin: 0 1em">As a FC organizer, I want to check list of customers that come early for the first performance, so that I can provide better service.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>FC</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>check</td>
+						<td>list</td>
+						<td>of</td>
+						<td>customers</td>
+						<td>that</td>
+						<td>come</td>
+						<td>early</td>
+						<td>for</td>
+						<td>the</td>
+						<td>first</td>
+						<td>performance</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>provide</td>
+						<td>better</td>
+						<td>service</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>ADJ</td>
+						<td>VERB</td>
+						<td>ADV</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NNS</td>
+						<td>WDT</td>
+						<td>VBP</td>
+						<td>RB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>JJR</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FC organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can check list of customers that come early for the first performance</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I can provide better service</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FC organizer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>check</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>list</kbd>
+					with phrase <kbd>list</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can of customers that come early for the first performance</kbd></dd>
+						<dd>with nouns 
+<kbd>customers</kbd><kbd>performance</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I can provide better service</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>service</kbd>
+					with phrase <kbd>better service</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>service</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 32</span>
+					<div style="display: inline-block; margin: 0 1em">As a GA organizer, I want to check whether all students come to lectures. 
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>GA</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>check</td>
+						<td>whether</td>
+						<td>all</td>
+						<td>students</td>
+						<td>come</td>
+						<td>to</td>
+						<td>lectures</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNS</td>
+						<td>VBP</td>
+						<td>IN</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As a</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>GA organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can check whether all students come to lectures</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">GA organizer</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>check</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>lectures</kbd>
+					with phrase <kbd>lectures</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can whether all students come to</kbd></dd>
+						<dd>with nouns 
+<kbd>students</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 33</span>
+					<div style="display: inline-block; margin: 0 1em">As an organizer, I want to have volunteers. 
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>an</td>
+						<td>organizer</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>have</td>
+						<td>volunteers</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As an</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>organizer</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can have volunteers</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">organizer</span></kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>have</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>volunteers</kbd>
+					with phrase <kbd>volunteers</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 34</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to assure the RFID chip’s quality, so that our customers and event organizers could be satisfied.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>assure</td>
+						<td>the</td>
+						<td>RFID</td>
+						<td>chip</td>
+						<td>’s</td>
+						<td>quality</td>
+						<td>so</td>
+						<td>that</td>
+						<td>our</td>
+						<td>customers</td>
+						<td>and</td>
+						<td>event</td>
+						<td>organizers</td>
+						<td>could</td>
+						<td>be</td>
+						<td>satisfied</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>X</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>CONJ</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>XX</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+						<td>CC</td>
+						<td>NN</td>
+						<td>NNS</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>JJ</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can assure the RFID chip’s quality</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">our customers and event organizers could be satisfied</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>assure</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>quality</kbd>
+					with phrase <kbd>the RFID chip’s quality</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>our customers and event organizers could be satisfied</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+							<kbd>customers</kbd>
+						with phrase <kbd>our customers</kbd>
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>be</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd></kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>customers</kbd><kbd>event</kbd><kbd>organizers</kbd></dd>
+					<dd>of which compounds 
+<kbd>event</kbd><kbd>organizers</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 35</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to have an FETCH staff account so that I can provide information.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>have</td>
+						<td>an</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>account</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>provide</td>
+						<td>information</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd><span class="endsIndicator">So that</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can have an FETCH staff account</span></kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd><span class="endsText">I can provide information</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>have</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>staff account</kbd> (compound)
+					with phrase <kbd>an FETCH staff account</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can</kbd></dd>
+						<dd>with nouns 
+</dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I can provide information</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>information</kbd>
+					with phrase <kbd>information</kbd>
+					</dd>
+					
+					<dt>Nouns</dt>
+					<dd><kbd>information</kbd></dd>
+					<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 36</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to enable our customers to use other types of cashless payments.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>enable</td>
+						<td>our</td>
+						<td>customers</td>
+						<td>to</td>
+						<td>use</td>
+						<td>other</td>
+						<td>types</td>
+						<td>of</td>
+						<td>cashless</td>
+						<td>payments</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NNS</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>JJ</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can enable our customers to use other types of cashless payments</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>enable</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>types</kbd>
+					with phrase <kbd>other types</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can our customers to use of cashless payments</kbd></dd>
+						<dd>with nouns 
+<kbd>customers</kbd><kbd>payments</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default user-story">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 37</span>
+					<div style="display: inline-block; margin: 0 1em">As FETCH staff, I want to give bonus chips to our loyal customers. </div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>FETCH</td>
+						<td>staff</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>give</td>
+						<td>bonus</td>
+						<td>chips</td>
+						<td>to</td>
+						<td>our</td>
+						<td>loyal</td>
+						<td>customers</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>PROPN</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADJ</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>NNP</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>NN</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>PRP$</td>
+						<td>JJ</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd><span class="roleIndicator">As</span></kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd><span class="meansIndicator">I want to</span></kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>FETCH staff</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd><span class="meansText">I can give bonus chips to our loyal customers</span></kbd></dd>
+				<h4>Role</h4>
+				
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd><span class="roleText">FETCH staff</span></kbd> (compound)
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>give</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>bonus chips</kbd> (compound)
+					with phrase <kbd>bonus chips</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>can to our loyal customers</kbd></dd>
+						<dd>with nouns 
+<kbd>customers</kbd></dd>
+						<dd>of which compounds 
+</dd>
+				</dl>
+			</div>
+		</div>
+
+	<h2 id="ontology">Manchester Ontology</h2>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generation settings</h3>
+		</div>
+		<div class="panel-body">
+			<h4>Threshold</h4>
+			1.0
+			<div class="alert alert-warning">Every word below the threshold will not be used to make any ontology classes or relationships</div>
+			<h4>Absolute weights (base = 1)</h4>	
+			<dl class="dl-horizontal">
+				<dt>Functional role</dt><dd>1</dd>
+				<dt>Direct objects</dt><dd></dd>
+				<dt>Noun in free form means</dt><dd>0.7</dd>
+				<dt>Noun in free form ends</dt><dd>0.5</dd>
+			</dl>
+			<h4>Relative weights</h4>	
+			<dl class="dl-horizontal">
+				<dt>Compound (compared to parent)</dt><dd>0.66</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Obtained weights</h3>
+		</div>
+		<div class="panel-body">
+			<p>Stop words with a weight of 0 and punctuation marks were removed from the list below.</p>
+			<p>Classes above the threshold (1.0) are highlighted in <span class="bg-success">green</span>.</p>
+		</div>
+			<table class="table">
+				<thead>
+					<tr><th>Case</th><th>Weight</th></tr>
+				</thead>
+				<tbody>
+				<tr class="success">
+				<td>Customer</td><td>17.3</td>
+				</tr>
+				<tr class="success">
+				<td>Organizer</td><td>17.2</td>
+				</tr>
+				<tr class="success">
+				<td>Event</td><td>10.96</td>
+				</tr>
+				<tr class="success">
+				<td>Ticket</td><td>8.1</td>
+				</tr>
+				<tr class="success">
+				<td>Staff</td><td>7.66</td>
+				</tr>
+				<tr class="success">
+				<td>Information</td><td>7.5</td>
+				</tr>
+				<tr class="success">
+				<td>FC</td><td>4.62</td>
+				</tr>
+				<tr class="success">
+				<td>FETCH</td><td>4.62</td>
+				</tr>
+				<tr class="success">
+				<td>Site</td><td>2.8</td>
+				</tr>
+				<tr class="success">
+				<td>Part</td><td>2.8</td>
+				</tr>
+				<tr class="success">
+				<td>Location</td><td>2.8</td>
+				</tr>
+				<tr class="success">
+				<td>Area</td><td>2.8</td>
+				</tr>
+				<tr class="success">
+				<td>Chip</td><td>2.66</td>
+				</tr>
+				<tr class="success">
+				<td>Card</td><td>2.4</td>
+				</tr>
+				<tr class="success">
+				<td>Payment</td><td>2.1</td>
+				</tr>
+				<tr class="success">
+				<td>Money</td><td>2.0</td>
+				</tr>
+				<tr class="success">
+				<td>GA</td><td>1.98</td>
+				</tr>
+				<tr class="success">
+				<td>Account</td><td>1.7</td>
+				</tr>
+				<tr class="success">
+				<td>Performance</td><td>1.7</td>
+				</tr>
+				<tr class="success">
+				<td>Lecture</td><td>1.7</td>
+				</tr>
+				<tr class="success">
+				<td>Way</td><td>1.5</td>
+				</tr>
+				<tr class="success">
+				<td>Facility</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Quality</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>State</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>List</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Volunteer</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Notification</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Page</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Type</td><td>1.0</td>
+				</tr>
+				<tr>
+				<td>Performer</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Group</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Number</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>2-day/3day</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Field</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>A&B</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Student</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Staff/student</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Time</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Building</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Attendee</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>Day</td><td>0.7</td>
+				</tr>
+				<tr>
+				<td>RFID</td><td>0.66</td>
+				</tr>
+				<tr>
+				<td>Bonus</td><td>0.66</td>
+				</tr>
+				<tr>
+				<td>Plan</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Process</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Purchase</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Error</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Service</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Study</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Visitor</td><td>0.5</td>
+				</tr>
+				<tr>
+				<td>Our</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Pay</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Other</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Out</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Same</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Personal</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Provide</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Relate</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Review</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Online</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Satisfy</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>The</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Use</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>We</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Where</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Whether</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>With</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Without</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Open</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>(</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>On</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Better</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Deposit</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Could</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Come</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Check</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Cashless</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Can</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>By</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Booking</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Attend</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Different</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>At</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>And</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>All</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>About</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>...</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>.</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>-</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>,</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Designate</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Each</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Offline</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>In</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Of</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Objective</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>New</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>My</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Multiple</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Loyal</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>)</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Like</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Important</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Early</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Hold</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Have</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Give</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>For</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>First</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Favorited</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Enable</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Easily</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>’</td><td>0.0</td>
+				</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generated classes</h3>
+		</div>
+			<table class="table" id="classes">
+				<thead>
+					<tr><th>Type</th><th>Class</th><th>Parent</th><th>Occurs in</th></tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>FunctionalRole</td><td>Customer</td><td></td><td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 23, 26, 31, 34, 36, 37</td>
+					</tr>
+					<tr>
+					<td></td><td>Ticket</td><td></td><td>1, 2, 5, 6, 8, 14, 20</td>
+					</tr>
+					<tr>
+					<td></td><td>Chip Card</td><td>Card</td><td>3</td>
+					</tr>
+					<tr>
+					<td></td><td>Card</td><td></td><td>3, 4, 9</td>
+					</tr>
+					<tr>
+					<td></td><td>Chip</td><td></td><td>3, 26, 34, 37</td>
+					</tr>
+					<tr>
+					<td></td><td>Money</td><td></td><td>4, 9</td>
+					</tr>
+					<tr>
+					<td></td><td>Facility</td><td></td><td>4, 9</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>FC Customer</td><td>Customer</td><td>5, 6, 7, 11</td>
+					</tr>
+					<tr>
+					<td></td><td>FC</td><td></td><td>5, 6, 7, 11, 21, 22, 31</td>
+					</tr>
+					<tr>
+					<td></td><td>Performance</td><td></td><td>7, 31</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>GA Customer</td><td>Customer</td><td>10</td>
+					</tr>
+					<tr>
+					<td></td><td>GA</td><td></td><td>10, 23, 32</td>
+					</tr>
+					<tr>
+					<td></td><td>Notification</td><td></td><td>10</td>
+					</tr>
+					<tr>
+					<td></td><td>Information</td><td></td><td>11, 12, 21, 22, 27, 28, 29, 30, 35</td>
+					</tr>
+					<tr>
+					<td></td><td>Event</td><td></td><td>12, 13, 14, 15, 16, 18, 19, 20, 26, 27, 28, 30, 34</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>Organizer</td><td></td><td>14, 15, 16, 18, 19, 20, 21, 22, 23, 25, 27, 29, 30, 31, 32, 33, 34</td>
+					</tr>
+					<tr>
+					<td></td><td>Way</td><td></td><td>15, 20</td>
+					</tr>
+					<tr>
+					<td></td><td>State</td><td></td><td>20</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>FC Organizer</td><td>Organizer</td><td>21, 22, 31</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>GA Organizer</td><td>Organizer</td><td>23, 32</td>
+					</tr>
+					<tr>
+					<td>FunctionalRole</td><td>FETCH Staff</td><td>Staff</td><td>26, 27, 28, 34, 35, 36, 37</td>
+					</tr>
+					<tr>
+					<td></td><td>Staff</td><td></td><td>26, 27, 28, 34, 35, 36, 37</td>
+					</tr>
+					<tr>
+					<td></td><td>FETCH</td><td></td><td>26, 27, 28, 34, 35, 36, 37</td>
+					</tr>
+					<tr>
+					<td></td><td>Event Location</td><td>Location</td><td>26</td>
+					</tr>
+					<tr>
+					<td></td><td>Location</td><td></td><td>6, 16, 26</td>
+					</tr>
+					<tr>
+					<td></td><td>Event Organizer</td><td>Organizer</td><td>27, 34</td>
+					</tr>
+					<tr>
+					<td></td><td>Event Page</td><td>Page</td><td>30</td>
+					</tr>
+					<tr>
+					<td></td><td>Page</td><td></td><td>30</td>
+					</tr>
+					<tr>
+					<td></td><td>List</td><td></td><td>31</td>
+					</tr>
+					<tr>
+					<td></td><td>Lecture</td><td></td><td>10, 32</td>
+					</tr>
+					<tr>
+					<td></td><td>Volunteer</td><td></td><td>33</td>
+					</tr>
+					<tr>
+					<td></td><td>Quality</td><td></td><td>34</td>
+					</tr>
+					<tr>
+					<td></td><td>Staff Account</td><td>Account</td><td>35</td>
+					</tr>
+					<tr>
+					<td></td><td>Account</td><td></td><td>12, 28, 35</td>
+					</tr>
+					<tr>
+					<td></td><td>Type</td><td></td><td>36</td>
+					</tr>
+					<tr>
+					<td></td><td>Payment</td><td></td><td>3, 26, 36</td>
+					</tr>
+					<tr>
+					<td></td><td>Area</td><td></td><td>11, 21, 22, 27</td>
+					</tr>
+					<tr>
+					<td></td><td>Part</td><td></td><td>11, 21, 22, 27</td>
+					</tr>
+					<tr>
+					<td></td><td>Site</td><td></td><td>11, 21, 22, 27</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generated relationships</h3>
+		</div>
+			<table class="table" id="relationships">
+				<thead>
+					<tr><th>Subject</th><th>Predicate</th><th>Object</th><th>Occurs in</th></tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>Customer</td><td>Purchase</td><td>Ticket</td><td>1, 8</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Pay For</td><td>Ticket</td><td>2</td>
+					</tr>
+					<tr>
+					<td>Chip Card</td><td>isa</td><td>Card</td><td>3</td>
+					</tr>
+					<tr>
+					<td>Chip</td><td>Card</td><td>Chip Card</td><td>3</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Have</td><td>Chip Card</td><td>3</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Deposit</td><td>Money</td><td>4, 9</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Pay For</td><td>Facility</td><td>4, 9</td>
+					</tr>
+					<tr>
+					<td>FC Customer</td><td>isa</td><td>Customer</td><td>5, 6, 7, 11</td>
+					</tr>
+					<tr>
+					<td>FC</td><td>Customer</td><td>FC Customer</td><td>5, 6, 7, 11</td>
+					</tr>
+					<tr>
+					<td>FC Customer</td><td>Purchase</td><td>Ticket</td><td>5, 6</td>
+					</tr>
+					<tr>
+					<td>FC Customer</td><td>Say</td><td>Performance</td><td>7</td>
+					</tr>
+					<tr>
+					<td>GA Customer</td><td>isa</td><td>Customer</td><td>10</td>
+					</tr>
+					<tr>
+					<td>GA</td><td>Customer</td><td>GA Customer</td><td>10</td>
+					</tr>
+					<tr>
+					<td>GA Customer</td><td>Receive</td><td>Notification</td><td>10</td>
+					</tr>
+					<tr>
+					<td>FC Customer</td><td>Have</td><td>Information</td><td>11</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Log To</td><td>Information</td><td>12</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Search For</td><td>Event</td><td>13</td>
+					</tr>
+					<tr>
+					<td>Customer</td><td>Find</td><td>Event</td><td>13</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Distribute</td><td>Ticket</td><td>14</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Customize</td><td>Way</td><td>15</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Hold</td><td>Event</td><td>16, 18, 19</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Overview</td><td>State</td><td>20</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Analyze</td><td>Event</td><td>20</td>
+					</tr>
+					<tr>
+					<td>FC Organizer</td><td>isa</td><td>Organizer</td><td>21, 22, 31</td>
+					</tr>
+					<tr>
+					<td>FC</td><td>Organizer</td><td>FC Organizer</td><td>21, 22, 31</td>
+					</tr>
+					<tr>
+					<td>FC Organizer</td><td>Provide</td><td>Information</td><td>21</td>
+					</tr>
+					<tr>
+					<td>FC Organizer</td><td>Update</td><td>Information</td><td>22</td>
+					</tr>
+					<tr>
+					<td>GA Organizer</td><td>isa</td><td>Organizer</td><td>23, 32</td>
+					</tr>
+					<tr>
+					<td>GA</td><td>Organizer</td><td>GA Organizer</td><td>23, 32</td>
+					</tr>
+					<tr>
+					<td>GA Organizer</td><td>Classify</td><td>Customer</td><td>23</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Have</td><td>Organizer</td><td>25</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>isa</td><td>Staff</td><td>26, 27, 28, 34, 35, 36, 37</td>
+					</tr>
+					<tr>
+					<td>FETCH</td><td>Staff</td><td>FETCH Staff</td><td>26, 27, 28, 34, 35, 36, 37</td>
+					</tr>
+					<tr>
+					<td>Event Location</td><td>isa</td><td>Location</td><td>26</td>
+					</tr>
+					<tr>
+					<td>Event</td><td>Location</td><td>Event Location</td><td>26</td>
+					</tr>
+					<tr>
+					<td>Event Organizer</td><td>isa</td><td>Organizer</td><td>27, 34</td>
+					</tr>
+					<tr>
+					<td>Event</td><td>Organizer</td><td>Event Organizer</td><td>27, 34</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>Provide</td><td>Information</td><td>27, 28, 35</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>Manage</td><td>Event</td><td>28</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>See</td><td>Information</td><td>29</td>
+					</tr>
+					<tr>
+					<td>Event Page</td><td>isa</td><td>Page</td><td>30</td>
+					</tr>
+					<tr>
+					<td>Event</td><td>Page</td><td>Event Page</td><td>30</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Open</td><td>Event Page</td><td>30</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Review</td><td>Information</td><td>30</td>
+					</tr>
+					<tr>
+					<td>FC Organizer</td><td>Check</td><td>List</td><td>31</td>
+					</tr>
+					<tr>
+					<td>GA Organizer</td><td>Check</td><td>Lecture</td><td>32</td>
+					</tr>
+					<tr>
+					<td>Organizer</td><td>Have</td><td>Volunteer</td><td>33</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>Assure</td><td>Quality</td><td>34</td>
+					</tr>
+					<tr>
+					<td>Staff Account</td><td>isa</td><td>Account</td><td>35</td>
+					</tr>
+					<tr>
+					<td>Staff</td><td>Account</td><td>Staff Account</td><td>35</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>Have</td><td>Staff Account</td><td>35</td>
+					</tr>
+					<tr>
+					<td>FETCH Staff</td><td>Enable</td><td>Type</td><td>36</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			The output can be found at <a href="C:\Users\c\Desktop\VisualNarrator-master-newoutput/System/ontology/System16.omn">output/System/ontology/System16.omn</a>, which can be used to analyze and visualize the ontology.
+		</div>
+		<div class="panel-footer">
+				<span class="text-muted">
+					# 
+					Generated 
+					with 
+					Visual 
+					Narrator 
+				</span>
+				<br>
+					Prefix: 
+					: 
+					<http://fakesite.org/system.owl#> 
+				<br>
+					Prefix: 
+					owl: 
+					<http://www.w3.org/2002/07/owl#> 
+				<br>
+					Prefix: 
+					rdf: 
+					<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+				<br>
+					Prefix: 
+					rdfs: 
+					<http://www.w3.org/2000/01/rdf-schema#> 
+				<br>
+					Prefix: 
+					xsd: 
+					<http://www.w3.org/2001/XMLSchema#> 
+				<br>
+					Prefix: 
+					dc: 
+					<http://purl.org/dc/elements/1.1/> 
+				<br>
+					Prefix: 
+					onto: 
+					<http://fakesite.org/system.owl#> 
+				<br>
+					 
+				<br>
+					Ontology: 
+					<:> 
+				<br>
+					 
+				<br>
+					Annotations: 
+				<br>
+					&nbsp;
+						dc:title 
+					"System", 
+				<br>
+					&nbsp;
+						dc:creator 
+					"Visual 
+					Narrator", 
+				<br>
+					&nbsp;
+						rdfs:comment 
+					"Generated 
+					with 
+					Visual 
+					Narrator" 
+				<br>
+					 
+				<br>
+					AnnotationProperty: 
+					dc:creator 
+				<br>
+					 
+				<br>
+					AnnotationProperty: 
+					dc:title 
+				<br>
+					 
+				<br>
+					 
+				<br>
+				<span class="text-muted">
+					# 
+					Relationships 
+				</span>
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canAnalyze 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSay 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCCustomer 
+				<br>
+					&nbsp;
+						Range: 
+					:Performance 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canLogTo 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canDeposit 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Money 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canCustomize 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Way 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canUpdate 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCOrganizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canOpen 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:EventPage 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canAssure 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						Range: 
+					:Quality 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasLocation 
+				<br>
+					&nbsp;
+						Domain: 
+					:Event 
+				<br>
+					&nbsp;
+						Range: 
+					:EventLocation 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHave1 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:ChipCard 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHave2 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCCustomer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHave3 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Organizer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHave4 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Volunteer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHave5 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						Range: 
+					:StaffAccount 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canOverview 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:State 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canClassify 
+				<br>
+					&nbsp;
+						Domain: 
+					:GAOrganizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Customer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canReview 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canCheck1 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCOrganizer 
+				<br>
+					&nbsp;
+						Range: 
+					:List 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canCheck2 
+				<br>
+					&nbsp;
+						Domain: 
+					:GAOrganizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Lecture 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasAccount 
+				<br>
+					&nbsp;
+						Domain: 
+					:Staff 
+				<br>
+					&nbsp;
+						Range: 
+					:StaffAccount 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canProvide1 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCOrganizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canProvide2 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canPurchase1 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canPurchase2 
+				<br>
+					&nbsp;
+						Domain: 
+					:FCCustomer 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasPage 
+				<br>
+					&nbsp;
+						Domain: 
+					:Event 
+				<br>
+					&nbsp;
+						Range: 
+					:EventPage 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasOrganizer1 
+				<br>
+					&nbsp;
+						Domain: 
+					:FC 
+				<br>
+					&nbsp;
+						Range: 
+					:FCOrganizer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasOrganizer2 
+				<br>
+					&nbsp;
+						Domain: 
+					:GA 
+				<br>
+					&nbsp;
+						Range: 
+					:GAOrganizer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasOrganizer3 
+				<br>
+					&nbsp;
+						Domain: 
+					:Event 
+				<br>
+					&nbsp;
+						Range: 
+					:EventOrganizer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canDistribute 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasCard 
+				<br>
+					&nbsp;
+						Domain: 
+					:Chip 
+				<br>
+					&nbsp;
+						Range: 
+					:ChipCard 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canManage 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSearchFor 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasStaff 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCH 
+				<br>
+					&nbsp;
+						Range: 
+					:FETCHStaff 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasCustomer1 
+				<br>
+					&nbsp;
+						Domain: 
+					:FC 
+				<br>
+					&nbsp;
+						Range: 
+					:FCCustomer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasCustomer2 
+				<br>
+					&nbsp;
+						Domain: 
+					:GA 
+				<br>
+					&nbsp;
+						Range: 
+					:GACustomer 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSee 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Information 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canEnable 
+				<br>
+					&nbsp;
+						Domain: 
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						Range: 
+					:Type 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canHold 
+				<br>
+					&nbsp;
+						Domain: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canReceive 
+				<br>
+					&nbsp;
+						Domain: 
+					:GACustomer 
+				<br>
+					&nbsp;
+						Range: 
+					:Notification 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canFind 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canPayFor1 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canPayFor2 
+				<br>
+					&nbsp;
+						Domain: 
+					:Customer 
+				<br>
+					&nbsp;
+						Range: 
+					:Facility 
+				<br>
+					 
+				<br>
+				<span class="text-muted">
+					# 
+					Classes 
+				</span>
+				<br>
+					<span class="text-success">Class: </span>
+					:Customer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Ticket 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:ChipCard 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Card 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Chip 
+					Card" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Card 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Chip 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Money 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Facility 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:FCCustomer 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Customer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"FC 
+					Customer", 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:FC 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Performance 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:GACustomer 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Customer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"GA 
+					Customer", 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:GA 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Notification 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Information 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Event 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Organizer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Way 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:State 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:FCOrganizer 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"FC 
+					Organizer", 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:GAOrganizer 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"GA 
+					Organizer", 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:FETCHStaff 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Staff 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"FETCH 
+					Staff", 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Staff 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:FETCH 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:EventLocation 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Location 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Event 
+					Location" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Location 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:EventOrganizer 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Organizer 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Event 
+					Organizer" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:EventPage 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Page 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Event 
+					Page" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Page 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:List 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Lecture 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Volunteer 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Quality 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:StaffAccount 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Account 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Staff 
+					Account" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Account 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Type 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Payment 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Area 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Part 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Site 
+				<br>
+					 
+				<br>
+					 
+				<br>
+		</div>
+	</div>		
+</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Generated with Visual Narrator</p>
+		</div>
+	</footer>
+</body>
+</html>
